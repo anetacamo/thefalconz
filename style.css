@@ -60,7 +60,13 @@ p {
   margin-left: 16px;
   text-decoration: underline;
   font-size: 16px;
+  color: white;
 }
+.link:hover {
+  transition-duration: 350ms;
+  color: blueviolet;
+}
+
 .flex {
   display: flex;
   padding: 40px;
@@ -77,8 +83,6 @@ p {
 }
 .flex-end {
   display: flex;
-  margin: auto;
-  max-width: 1600px;
   justify-content: flex-end;
 }
 
@@ -143,4 +147,9 @@ p {
 
 .medium {
   margin: 120px auto;
+}
+
+.max-width {
+  max-width: 1600px;
+  margin: auto;
 }
