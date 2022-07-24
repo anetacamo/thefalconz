@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Barriecito&family=Bungee+Hairline&family=Bungee+Shade&family=Flamenco&family=Fredericka+the+Great&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Nixie+One&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300;500;600&family=Readex+Pro:wght@200;300;400;500;600;700&family=Righteous&family=Underdog&display=swap");
+
+@font-face {
+  font-family: Bagnard;
+  src: url(Bagnard.otf);
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+main {
+  padding: 12px;
+}
+h1,
+h2 {
+  margin: auto;
+  font-family: Readex Pro;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.center {
+  text-align: center;
+  margin-top: -32px;
+  margin-bottom: 48px;
+}
+
+/* Barriecito
+Bungee Hairline
+Josefin Sans
+Noto Serif
+Readex Pro
+Quicksand
+Righteous
+Underdog */
+
+h1 {
+  font-size: 120px;
+}
+h2 {
+  font-size: 32px;
+}
+
+p {
+  font-family: Bagnard;
+  font-size: 20px;
+}
+.text {
+  max-width: 800px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.link {
+  margin-left: 16px;
+  text-decoration: underline;
+  font-size: 16px;
+}
+.flex {
+  display: flex;
+  padding: 40px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  margin: auto;
+  max-width: 1600px;
+  align-items: center;
+  justify-content: center;
+}
+.flex-end {
+  display: flex;
+  margin: auto;
+  max-width: 1600px;
+  justify-content: flex-end;
+}
+
+.column {
+  padding: 12px;
+  flex: 1 1 0px;
+}
+.image img {
+  object-fit: contain;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.inverted {
+  filter: invert(1);
+}
+
+.circle img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.circle {
+  margin: auto;
+  max-width: 500px;
+  animation: spin 4s linear infinite;
+  margin-bottom: 80px;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.letter {
+  width: 90px;
+  height: 100px;
+
+  object-fit: contain;
+}
+
+.medium img {
+  width: 400px;
+}
+
+.medium {
+  margin: 120px auto;
+}
