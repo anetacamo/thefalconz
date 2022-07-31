@@ -127,9 +127,10 @@ p {
 }
 .circle {
   margin: auto;
-  max-width: 500px;
   animation: spin 4s linear infinite;
   margin-bottom: 80px;
+  height: 400px;
+  width: 400px;
 }
 
 @-moz-keyframes spin {
